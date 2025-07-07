@@ -1,2 +1,11 @@
-# bg_video
-🔹 Background Video Project A simple webpage featuring a full-screen background video with overlay text and a play/pause button. Includes a preloader and uses Font Awesome for icons. Built with HTML, CSS, and JavaScript
+# 🌄 Background Video Website
+
+This project demonstrates how to incorporate a full-screen background video on a webpage with an overlay title and a play/pause button. It also features a simple preloader animation before the video loads.
+
+## ✨ Features
+
+- Background video integration
+- Play/Pause toggle button using Font Awesome icons
+- Title text overlay
+- Preloader before page load
+- Responsive and beginner-friendly structure
