@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  z-index: 999;
+  animation: fadeOut 1s ease 2s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* Video background */
+.video-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.title {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+/* Button */
+#toggleBtn {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#toggleBtn i {
+  pointer-events: none;
+}
